@@ -30,5 +30,5 @@ struct ContentView: View {
 You can add `StorageAnalyzer` to your Xcode project as a package dependency.
 
 1.  From the **File** menu, select **Add Packages...**
-2.  Enter the package URL: `[Your Git Repository URL]`
+2.  Enter the package URL: `https://github.com/yourusername/StorageAnalyzer.git` (Replace `yourusername` with the actual GitHub username or organization).
 3.  Select the `StorageAnalyzer` package and add it to your project.
