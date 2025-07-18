@@ -14,9 +14,8 @@ public struct StorageAnalyzerView: View {
     public init() {}
     
     public var body: some View {
-        VStack {
+        VStack(spacing: 0) {
             StorageView(viewModel: viewModel)
-            Spacer()
         }
     }
 }
