@@ -30,12 +30,9 @@ public struct StorageView: View {
                         .foregroundColor(.gray)
                 }
             }
-            .padding()
             .onAppear {
                 viewModel.updateStorageInfo()
             }
-            
-            Spacer()
         }
     }
 }
