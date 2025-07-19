@@ -41,7 +41,6 @@ public struct SemiCircularProgressView: View {
         }
         .frame(width: 250, height: 250)
         .padding(.bottom, -90)
-        .background(Color.orange)
         
     }
 }
@@ -49,6 +48,3 @@ public struct SemiCircularProgressView: View {
 #Preview {
     SemiCircularProgressView(progress: 0.5)
 }
-
-
-
