@@ -27,7 +27,7 @@ public struct StorageView: View {
                         .foregroundColor(Color.init(hex: "314058"))
                     Text("\(String(format: "%.1f", viewModel.usedStorage)) GB / \(String(format: "%.1f", viewModel.totalStorage)) GB")
                         .font(.title3)
-                        .foregroundColor(.gray)
+                        .foregroundColor(.black)
                 }
             }
             .onAppear {

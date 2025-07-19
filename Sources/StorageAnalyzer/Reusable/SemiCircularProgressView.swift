@@ -40,9 +40,15 @@ public struct SemiCircularProgressView: View {
                 .rotationEffect(.degrees(54.5))
         }
         .frame(width: 250, height: 250)
+        .padding(.bottom, -90)
+        .background(Color.orange)
+        
     }
 }
 
 #Preview {
     SemiCircularProgressView(progress: 0.5)
 }
+
+
+
